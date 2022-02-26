@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+main {
+  width: 75%;
+  text-align: center;
+  margin-block: 1rem 5rem;
+}
+
+label {
+  display: block;
+  margin-block: 1rem;
+}
+
+.btn {
+  padding: 0.25rem 1rem;
+  background: black;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+section {
+  display: grid;
+  grid-auto-columns: auto;
+}
